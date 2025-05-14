@@ -1,5 +1,6 @@
 # Reto-02
 ## Agendamiento de citas
+```mermaid
 classDiagram
      Cita "1" -- "1" Receta : genera
     Paciente "1" -- "*" Cita : agenda
@@ -27,3 +28,4 @@ classDiagram
       +examinar()
       +diagnosticar()
     }
+```
